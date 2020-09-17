@@ -1,0 +1,15 @@
+C:\Users\tony\utimco\bin\Debug\netcoreapp3.1\utimco.exe
+C:\Users\tony\utimco\bin\Debug\netcoreapp3.1\utimco.deps.json
+C:\Users\tony\utimco\bin\Debug\netcoreapp3.1\utimco.runtimeconfig.json
+C:\Users\tony\utimco\bin\Debug\netcoreapp3.1\utimco.runtimeconfig.dev.json
+C:\Users\tony\utimco\bin\Debug\netcoreapp3.1\utimco.dll
+C:\Users\tony\utimco\bin\Debug\netcoreapp3.1\utimco.pdb
+C:\Users\tony\utimco\obj\Debug\netcoreapp3.1\utimco.csprojAssemblyReference.cache
+C:\Users\tony\utimco\obj\Debug\netcoreapp3.1\utimco.AssemblyInfoInputs.cache
+C:\Users\tony\utimco\obj\Debug\netcoreapp3.1\utimco.AssemblyInfo.cs
+C:\Users\tony\utimco\obj\Debug\netcoreapp3.1\utimco.csproj.CoreCompileInputs.cache
+C:\Users\tony\utimco\obj\Debug\netcoreapp3.1\utimco.dll
+C:\Users\tony\utimco\obj\Debug\netcoreapp3.1\utimco.pdb
+C:\Users\tony\utimco\obj\Debug\netcoreapp3.1\utimco.genruntimeconfig.cache
+C:\Users\tony\utimco\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\tony\utimco\obj\Debug\netcoreapp3.1\utimco.csproj.CopyComplete
