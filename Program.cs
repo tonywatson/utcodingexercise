@@ -6,9 +6,18 @@ namespace utimco
 {
     class Program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
-            var jdata = File.ReadAllText("json1.json");
+            if (args.Length == 0 || String.IsNullOrEmpty(args[0]))
+            {
+                Console.WriteLine("Please enter a json filename / filepath when running.");
+                Console.WriteLine("Usage: dotnet run json1.json");
+                return 1;
+            }
+
+            string filename = args[0];
+
+            var jdata = File.ReadAllText(filename);
             var token = JToken.Parse(jdata);
             if (token is JArray)
             {
@@ -18,12 +27,15 @@ namespace utimco
                     {
                         UtimcoModel m = d.ToObject<UtimcoModel>();
                         var hi = m.HeaderItems;
-                        if (hi.MenuItems.Count > 0) {
+                        if (hi.MenuItems.Count > 0)
+                        {
                             Console.WriteLine(hi.TotalCount());
                         }
                     }
                 }
             }
+
+            return 0;
         }
     }
 }
